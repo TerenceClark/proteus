@@ -157,7 +157,7 @@ var DefaultMappings = TypeMappings{
 					f.Options = make(Options)
 				}
 				f.Options["(gogoproto.stdtime)"] = NewLiteralValue("true")
-				f.Options["(gogoproto.nullable)"] = NewLiteralValue("false")
+				//f.Options["(gogoproto.nullable)"] = NewLiteralValue("false")
 			},
 		),
 	},
