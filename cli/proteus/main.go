@@ -7,9 +7,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"gopkg.in/src-d/proteus.v1"
-	"gopkg.in/src-d/proteus.v1/protobuf"
-	"gopkg.in/src-d/proteus.v1/report"
+	"github.com/TroyWind/proteus"
+	"github.com/TroyWind/proteus/protobuf"
+	"github.com/TroyWind/proteus/report"
 
 	"gopkg.in/urfave/cli.v1"
 )

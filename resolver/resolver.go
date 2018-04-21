@@ -1,10 +1,10 @@
-package resolver // import "gopkg.in/src-d/proteus.v1/resolver"
+package resolver // import "github.com/TroyWind/proteus/resolver"
 
 import (
 	"fmt"
 
-	"gopkg.in/src-d/proteus.v1/report"
-	"gopkg.in/src-d/proteus.v1/scanner"
+	"github.com/TroyWind/proteus/report"
+	"github.com/TroyWind/proteus/scanner"
 )
 
 // Resolver has the responsibility of checking the types of all the packages

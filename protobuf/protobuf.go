@@ -1,4 +1,4 @@
-package protobuf // import "gopkg.in/src-d/proteus.v1/protobuf"
+package protobuf // import "github.com/TroyWind/proteus/protobuf"
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"gopkg.in/src-d/proteus.v1/scanner"
+	"github.com/TroyWind/proteus/scanner"
 )
 
 // Package represents an unique .proto file with its own package definition.
